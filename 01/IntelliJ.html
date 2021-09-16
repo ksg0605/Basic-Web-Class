@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IntelliJ IDEA</title>
+</head>
+<body>
+    <h1>[Intellij IDEA Ultimate Edition 설치하기 (maxOS Big Sur)]</h1>
+    <div id="head">
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F5ff41df8-012b-4b76-9f8d-5d825756d034%2F_2021-05-08__9.13.21.png?table=block&id=e9896753-a734-453c-8107-8756e59ffed0&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1460&userId=&cache=v2">
+        <br>
+        기존에 JAVA와 Spring Framework를 공부하며 전공 시간에 사용하던 Eclipse를 벗어나 IntelliJ IDEA를 설치하게 되었다. <br/>
+        설치하며 학생인증을 받아 무료로 Ultimate 에디션을 사용하는 방법과 패키지 관리 매니저를 사용하여 쉽고 간편하게 설치하는 방법을 정리해보았다.
+        <br>
+    </div>
+    <div id="edition">
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F3cc4cba7-d9da-4022-9fa7-80bc02006a31%2F_2021-05-08__9.25.44.png?table=block&id=4736752a-4bdd-4b17-9eb2-25c12df43365&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1790&userId=&cache=v2">
+        <br>
+        유료와 무료 에디션에는 위 사진과 같은 기능 차이들이 존재한다.<br>
+        언뜻 보기에도 많은 차이가 존재하는데, 'Intellij를 사용한다!' 라고 말하기 위해선 Ultimate Edition을 사용해야 한다고 한다.
+        <br>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4b51ec22-7390-47ca-af0b-5d651a3d0658%2F_2021-05-08__9.29.29.png?table=block&id=eba18fb7-07df-454a-bd0f-35c7469df100&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1580&userId=&cache=v2">
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F9657c2ac-d109-4704-8285-ca46dea94665%2F_2021-05-08__9.29.39.png?table=block&id=d165e3dc-be49-4f3c-b697-da92fbeeaa56&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1550&userId=&cache=v2">
+        <br>
+        하지만 학생에게는 너무 비싼 가격....
+        <br>
+        <br>
+        그래서 학생들에게는 학생인증을 통하여 무료로! 이러한 기능들을 제공한다.
+        <br>
+    </div>
+
+    <div id="main">
+        <h3>Intellij Ultimate Edition 학생인증 받기</h3>
+        - 먼저 아래 링크로 접속한다 <br>
+        <a href="https://www.jetbrains.com/community/education/#students">학생인증 링크</a> <br>
+        - 스크롤을 내리다 보면 아래와 같은 화면을 볼 수 있는데, apply now를 클릭한다. <br>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7abdd267-a598-498a-ba9c-44c6c3d00c82%2F_2021-05-08__9.33.17.png?table=block&id=7af04013-9bc7-4dd2-b3ea-18a1f8779a22&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1340&userId=&cache=v2">
+        <br>
+        - 클릭하면 아래와 같은 입력창이 나오는데, Github Student Development Pack이 이미 있다면 바로 인증이 끝난다. <br>
+        - Github Student Development Pack은 등록해두면 많은 혜택을 볼 수 있으니 미리미리 등록해 두는것을 추천한다. <br>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd9c35bf6-0a1c-409b-9446-eb4871f65788%2F_2021-05-08__9.34.07.png?table=block&id=9b1b198e-b7d0-4409-9494-98e1c39719b0&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1790&userId=&cache=v2">
+        <br>
+        - 위 양식을 다 채우고, 이메일 인증이 끝나면 등록이 완료된다.
+        <br>
+        <br>
+        <br>
+    </div>
+
+    <div id="install">
+        <h3>Intellij Ultimate Edition 무료로 설치하기</h3>
+        - 내장 Terminal이나 iTrem2를 열고 다음의 한 문장만 입력해주면 설치가 시작된다. <br>
+        <code>brew install --cask intellij-idea</code> <br>
+        - 다음과 같이 설치가 진행되는 것을 알 수 있다. <br>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F01f8cc75-b8bc-4177-b38c-a27cf7173cfe%2F_2021-05-08__9.43.32.png?table=block&id=8dfc7f04-c335-461c-8a76-cd72b5168324&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1520&userId=&cache=v2">
+        <br>
+        - 설치가 완료되면 다음과 같은 안내문이 출력된다. <br>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc8297bb2-4bce-4fa6-9637-d1516e204f65%2F_2021-05-08__9.45.17.png?table=block&id=e75fd491-96b8-40b7-a006-4121911a22a2&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1440&userId=&cache=v2">
+        - 런치패드에 다음과 같은 아이콘이 생긴것을 확인할 수 있다. <br>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F87525459-5ac3-4e4e-b2b5-5af8d6984cfc%2F_2021-05-08__9.47.28.png?table=block&id=88fb99dc-3260-4d20-9250-a973322d7d5e&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=450&userId=&cache=v2">
+        <br>
+        - 실행시킨 후 임의의 프로젝트를 생성해보자 <br>
+        - Tools 탭의 Create Command-line Launcher를 클릭한다. <br>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd31cf0f1-09cc-49f1-bff7-ba47b0044ecd%2F_2021-05-08__9.54.41.png?table=block&id=eaca941c-f29f-46d5-bda8-38261d65f5ab&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=620&userId=&cache=v2">
+        <br>
+        - OK를 눌러 다음으로 넘어간다.
+        <br>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F63278a18-c3f2-4f7b-81ba-bea1fbba4538%2F_2021-05-08__9.55.37.png?table=block&id=73a3c257-9e21-4d48-9d3b-d1fe3ec159ce&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1640&userId=&cache=v2">
+        <br>
+        - 터미널이나 iTerm2를 다시 켜고, 원하는 경로에서 idea .을 입력하면 해당 폴더에서 IntelliJ가 실행된다 <br>
+        <img src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fc74c092a-f7c7-49be-82b5-d3193c6316a8%2F_2021-05-08__9.56.44.png?table=block&id=4324710a-59a5-4f9c-b625-13feee48af6f&spaceId=235657dc-8d24-48e7-9e31-781a99445ee3&width=1520&userId=&cache=v2">
+    </div>
+
+</body>
+</html>
