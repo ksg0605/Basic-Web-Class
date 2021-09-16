@@ -1,0 +1,19 @@
+{
+  "name": "basic-web-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ksg0605/Basic-Web-Class.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ksg0605/Basic-Web-Class/issues"
+  },
+  "homepage": "https://github.com/ksg0605/Basic-Web-Class#readme"
+}
