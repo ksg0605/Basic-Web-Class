@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>resume</title>
+</head>
+<style>
+    legend {
+        display: block;
+        padding-left: 2px;
+        padding-right: 2px;
+        border: 1px;
+    }
+    information {
+        text-indent: 30px;
+    }
+</style>
+<body>
+<h1>프론트엔드 개발자 지원서</h1>
+<p><strong>HTML, CSS, JAVASCRIPT</strong>에 대한 기술적 이해와 많은 경험이 있는분을 찾습니다.</p>
+
+<hr>
+<fieldset>
+    <legend>입사지원서</legend>
+    <div class="information">
+    <h3>개인정보</h3>
+        <ul>
+            <li>
+                <label for="name">이름</label> <input type="text" name="name">
+            </li>
+            <li>
+                <label for="tel">연락처</label> <input type="text" name="tel">
+            </li>
+            <li>
+                <label for="department">학과</label>
+                <select name="major" id="department">
+                        <option value="computer-science">컴퓨터 공학과</option>
+                        <option value="computer-education">컴퓨터 교육과</option>
+                        <option value="etc">기타</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+    <div class="fields">
+        <h3>지원 분야</h3>
+        <ul>
+            <li>
+                <input type="radio" name="checkbox-publishing" value="publishing">웹 퍼블리싱
+            </li>
+            <li>
+                <input type="radio" name="checkbox-application" value="application">웹 어플리케이션
+            </li>
+            <li>
+                <input type="radio" name="checkbox-support" value="support">웹 개발 지원
+            </li>
+        </ul>
+    </div>
+    <div class="motivation">
+        <h3>지원 동기</h3>
+        <textarea name="motivation-text-form" rows="10" cols="50">지원동기를 작성해주세요.</textarea> <br>
+        <button name="apply" type="button">접수하기</button>
+        <button name="rewrite" type="button">다시작성</button>
+    </div>
+</fieldset>
+</body>
+</html>
